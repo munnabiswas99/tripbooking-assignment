@@ -1,4 +1,8 @@
 import React from "react";
+import logo from "../../assets/logo.png";
+import { Link } from "react-router";
+import Logo from "../../components/Logo";
+import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -27,27 +31,55 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <a>Home</a>
             </li>
             <li>
-              <a>Item 2</a>
+              <a>Tours</a>
+            </li>
+            <li>
+              <a>Hotels</a>
+            </li>
+            <li>
+              <a>Blog</a>
+            </li>
+            <li>
+              <a>About</a>
+            </li>
+            <li>
+              <a>Contact</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link>
+          <Logo></Logo>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <a>Home</a>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Tours</a>
+          </li>
+          <li>
+            <a>Hotels</a>
+          </li>
+          <li>
+            <a>Blog</a>
+          </li>
+          <li>
+            <a>About</a>
+          </li>
+          <li>
+            <a>Contact</a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end text-center items-center gap-2 ">
+        <CiSearch />
+        <span>Search</span>
+        <a className="btn rounded-2xl bg-[#FAB326]">SignIn</a>
       </div>
     </div>
   );
