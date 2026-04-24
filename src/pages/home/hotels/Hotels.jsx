@@ -9,12 +9,11 @@ import { Link } from "react-router";
 
 const Hotels = () => {
   return (
-    <div className="max-w-6xl mx-auto bg-gray-100 p-4 rounded-xl">
+    <div className="max-w-6xl mx-auto bg-gray-100 p-4 mx-16 rounded-xl">
       
       {/* Top Section */}
       <div className="flex justify-between items-center mb-4">
         
-        {/* Tabs */}
         <div className="flex gap-2">
           <button className="flex items-center gap-2 px-4 py-2 rounded-full text-black hover:bg-[#FAB326] transition">
             <MdTour />
@@ -26,17 +25,13 @@ const Hotels = () => {
             Hotels
           </button>
         </div>
-
-        {/* Help Link */}
         <Link className="text-gray-500 text-sm hover:underline">
           Need some help?
         </Link>
       </div>
 
-      {/* Search Box */}
       <div className="bg-white rounded-2xl shadow-sm p-4 flex flex-col md:flex-row items-center justify-between gap-4">
 
-        {/* Location */}
         <div className="flex items-center gap-3 w-full">
           <IoLocationOutline className="text-gray-400 text-xl" />
           <div>
@@ -45,10 +40,8 @@ const Hotels = () => {
           </div>
         </div>
 
-        {/* Divider */}
         <div className="hidden md:block w-px h-10 bg-gray-200"></div>
 
-        {/* Date */}
         <div className="flex items-center gap-3 w-full">
           <FaRegCalendarAlt className="text-gray-400" />
           <div>
@@ -57,10 +50,8 @@ const Hotels = () => {
           </div>
         </div>
 
-        {/* Divider */}
         <div className="hidden md:block w-px h-10 bg-gray-200"></div>
 
-        {/* Guests */}
         <div className="flex items-center gap-3 w-full">
           <FiUsers className="text-gray-400" />
           <div>
@@ -69,7 +60,6 @@ const Hotels = () => {
           </div>
         </div>
 
-        {/* Search Button */}
         <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full">
           <IoSearch />
           Search
