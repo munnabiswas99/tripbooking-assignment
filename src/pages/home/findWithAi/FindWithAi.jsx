@@ -3,7 +3,7 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const FindWithAi = () => {
   return (
-    <div className="relative bg-gradient-to-r from-blue-700 to-blue-900 overflow-hidden py-20 px-6">
+    <div className="max-w-11/12 mx-auto relative bg-gradient-to-r from-blue-700 to-blue-900 overflow-hidden py-20 px-6 my-20">
 
       {/* 🔵 Background Glow Circles */}
       <div className="absolute w-[300px] h-[300px] bg-blue-400 opacity-20 rounded-full blur-3xl top-0 left-0"></div>

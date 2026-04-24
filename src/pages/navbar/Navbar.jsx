@@ -24,13 +24,13 @@ const Navbar = () => {
               </svg>
             </div>
 
-            <ul className="menu menu-sm dropdown-content bg-white rounded-box mt-3 w-52 p-2 shadow text-black">
-              <li><a>Home</a></li>
-              <li><a>Tours</a></li>
-              <li><a>Hotels</a></li>
-              <li><a>Blog</a></li>
-              <li><a>About</a></li>
-              <li><a>Contact</a></li>
+            <ul className="menu menu-sm dropdown-content bg-black rounded-box mt-3 w-52 p-2 shadow text-white ">
+              <li className="hover:text-[#FAB326]"><a>Home</a></li>
+              <li className="hover:text-[#FAB326]"><a>Tours</a></li>
+              <li className="hover:text-[#FAB326]"><a>Hotels</a></li>
+              <li className="hover:text-[#FAB326]"><a>Blog</a></li>
+              <li className="hover:text-[#FAB326]"><a>About</a></li>
+              <li className="hover:text-[#FAB326]"><a>Contact</a></li>
             </ul>
           </div>
 
@@ -42,12 +42,12 @@ const Navbar = () => {
         {/* Center */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-white">
-            <li><a>Home</a></li>
-            <li><a>Tours</a></li>
-            <li><a>Hotels</a></li>
-            <li><a>Blog</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
+            <li className="hover:text-[#FAB326]"><a>Home</a></li>
+            <li className="hover:text-[#FAB326]"><a>Tours</a></li>
+            <li className="hover:text-[#FAB326]"><a>Hotels</a></li>
+            <li className="hover:text-[#FAB326]"><a>Blog</a></li>
+            <li className="hover:text-[#FAB326]"><a>About</a></li>
+            <li className="hover:text-[#FAB326]"><a>Contact</a></li>
           </ul>
         </div>
 

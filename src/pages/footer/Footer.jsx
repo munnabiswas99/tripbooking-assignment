@@ -60,10 +60,10 @@ const footer = () => {
         <p>© 2024 Travila Inc. All rights reserved.</p>
         <div className="flex gap-2 items-center">
             <p>Follow Us</p>
-            <Link><CiInstagram /></Link>
-            <Link><FaFacebookSquare /></Link>
-            <Link><FaSquareXTwitter /></Link>
-            <Link><IoLogoYoutube /></Link>
+            <Link className="p-1 rounded-full border bg-gray-600"><CiInstagram /></Link>
+            <Link className="p-1 rounded-full border bg-gray-600"><FaFacebookSquare /></Link>
+            <Link className="p-1 rounded-full border bg-gray-600"><FaSquareXTwitter /></Link>
+            <Link className="p-1 rounded-full border bg-gray-600"><IoLogoYoutube /></Link>
         </div>
       </div>
     </div>

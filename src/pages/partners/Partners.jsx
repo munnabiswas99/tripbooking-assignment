@@ -9,7 +9,7 @@ import abx from "../../assets/partners/abx.png";
 
 const Partners = () => {
   return (
-<div className="mx-auto px-20 border flex gap-5 bg-[#E4E6E8] pt-30">
+<div className="mx-auto px-52 border flex gap-5 bg-[#E4E6E8] pt-30">
   
   <div className="mb-6 flex-1">
     <h2 className="text-xl font-semibold text-black">Trusted by</h2>

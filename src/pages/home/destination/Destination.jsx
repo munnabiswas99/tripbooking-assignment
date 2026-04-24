@@ -20,7 +20,7 @@ const destinations = [
 
 const Destination = () => {
   return (
-    <div className="max-w-6xl mx-auto px-20 py-12">
+    <div className="max-w-2/3 mx-auto py-12">
       
       {/* Header */}
       <h1 className="text-3xl font-semibold text-gray-900">

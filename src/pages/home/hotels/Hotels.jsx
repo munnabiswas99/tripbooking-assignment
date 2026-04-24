@@ -9,7 +9,7 @@ import { Link } from "react-router";
 
 const Hotels = () => {
   return (
-    <div className="max-w-6xl mx-auto bg-gray-100 p-4 mx-16 rounded-xl">
+    <div className="max-w-2/3 mx-auto bg-gray-100 p-4 mx-16 rounded-xl">
       
       {/* Top Section */}
       <div className="flex justify-between items-center mb-4">
