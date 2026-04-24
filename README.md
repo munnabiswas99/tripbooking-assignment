@@ -2,11 +2,15 @@
 
 A modern travel landing page built with React, featuring tours, hotels, destinations, and AI-powered discovery UI.
 
+### Live Link:
+[https://tripbooking-assignment.vercel.app/](https://tripbooking-assignment.vercel.app/)
+
 ---
 
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
+
 
 ```bash
 git clone https://github.com/munnabiswas99/tripbooking-assignment
