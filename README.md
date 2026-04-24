@@ -5,7 +5,7 @@
 A modern travel landing page built with React, featuring tours, hotels, destinations, and AI-powered discovery UI.
 
 ### Live Link:
-[https://tripbooking-assignment.vercel.app/](https://tripbooking-assignment.vercel.app/)
+[https://trip-booking-assignmeent1.vercel.app/](https://trip-booking-assignmeent1.vercel.app/)
 
 ---
 
